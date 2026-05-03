@@ -1,2 +1,118 @@
-# titanic-survival-prediction
-ML project: Titanic survival prediction using Logistic Regression and Decision Tree
+# 🚢 Titanic Survival Prediction
+
+## 📌 Описание проекта
+
+Проект по предсказанию выживания пассажиров Титаника с использованием методов машинного обучения.
+
+Цель — построить модель, которая по характеристикам пассажира определяет, выжил он или нет.
+
+---
+
+## 📊 Данные
+
+Используется классический датасет Titanic.
+
+Целевая переменная:
+
+* `Survived`
+
+  * `0` — не выжил
+  * `1` — выжил
+
+Признаки:
+
+* `Pclass` — класс билета
+* `Sex` — пол
+* `Age` — возраст
+* `SibSp` — количество родственников/супругов
+* `Parch` — количество родителей/детей
+* `Fare` — стоимость билета
+* `Embarked` — порт посадки
+
+---
+
+## ⚙️ Предобработка данных
+
+* Удалены лишние колонки (`Cabin`, `Name`, `Ticket`, `PassengerId`)
+* Заполнены пропуски в `Age` (медианой)
+* Заполнены пропуски в `Embarked` (модой)
+* Закодирован признак `Sex`
+* Выполнено One-Hot Encoding для `Embarked`
+
+---
+
+## 🤖 Модели
+
+В проекте использованы:
+
+* Logistic Regression
+* Decision Tree
+
+---
+
+## 📈 Результаты
+
+### Logistic Regression
+
+* Accuracy: ~0.81
+* Precision: ~0.79
+* Recall: ~0.74
+
+### Decision Tree
+
+* Accuracy: ~0.79
+* Precision: ~0.74
+* Recall: ~0.74
+
+---
+
+## 📊 Вывод
+
+Логистическая регрессия показала лучшие результаты по accuracy и precision.
+
+Дерево решений дало схожий recall, но уступило по общей точности.
+
+В рамках данного проекта Logistic Regression оказалась более стабильной моделью.
+
+---
+
+## 🚀 Как запустить
+
+1. Клонировать репозиторий:
+
+```
+git clone https://github.com/Erkinbek2026/titanic-survival-prediction.git
+```
+
+2. Перейти в папку проекта:
+
+```
+cd titanic-survival-prediction
+```
+
+3. Установить зависимости:
+
+```
+pip install pandas scikit-learn
+```
+
+4. Запустить:
+
+```
+python main.py
+```
+
+---
+
+## 🛠️ Стек технологий
+
+* Python
+* pandas
+* scikit-learn
+
+---
+
+## 💡 Автор
+
+Проект выполнен в рамках обучения машинному обучению.
+
