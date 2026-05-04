@@ -67,16 +67,21 @@ pip install -r requirements.txt
 
 python src/main.py
 
+## 📊 Example Output
 
+- Survival rate by gender
+- Survival rate by class
+- Visualization charts
+
+---
+
+## 👨‍💻 Author
+
+Erkinbek
+git clone https://github.com/Erkinbek2026/titanic-survival-prediction.git
 ---
 
 ---
 
-## ⚠️ ВАЖНО
-
-Заменить:
-
-```text
-YOUR_USERNAME
 
 
