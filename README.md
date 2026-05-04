@@ -1,35 +1,28 @@
 # 🚢 Titanic Survival Prediction
 
-ML project: prediction of passenger survival on the Titanic dataset using Machine Learning.
+Machine Learning project predicting passenger survival on the Titanic dataset using Python.
 
 ---
 
-## 📌 Project Description
+## 📌 Project Overview
 
-In this project, I analyze the Titanic dataset and build a machine learning model to predict whether a passenger survived or not.
-
-The project includes:
-- Data preprocessing
-- Exploratory analysis
-- Visualization
-- Machine Learning model
+In this project, we analyze the famous Titanic dataset and build a machine learning model to predict which passengers survived.
 
 ---
 
 ## 📊 Dataset
 
-Dataset: Titanic (Kaggle)
+Dataset used: Titanic dataset (Kaggle)
 
-Features include:
-- Passenger class (Pclass)
-- Sex
-- Age
-- Fare
-- Embarked port
+⚠️ Dataset is not included in this repository.  
+Download it here: https://www.kaggle.com/competitions/titanic/data
+
+Place the file as:
+
 
 ---
 
-## ⚙️ Technologies Used
+## ⚙️ Technologies
 
 - Python
 - pandas
@@ -38,36 +31,17 @@ Features include:
 
 ---
 
-## 📈 What I did
+## 🧠 What was done
 
-- Cleaned missing values
-- Encoded categorical features
-- Built visualizations
-- Trained ML models:
-  - Logistic Regression
-  - Decision Tree
-- Evaluated model accuracy
+- Data cleaning (handling missing values)
+- Feature encoding (Sex, Embarked)
+- Feature selection
+- Model training (Decision Tree Classifier)
+- Model evaluation
 
 ---
 
-## 🤖 Model Result
-
-Accuracy of the model: ~0.73
-
----
-
-## 🚀 How to run
-
-1. Clone repository:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/titanic-survival-prediction.git
-
-pip install -r requirements.txt
-
-python src/main.py
-
-## 📊 Example Output
+## 📈 Example Output
 
 - Survival rate by gender
 - Survival rate by class
@@ -75,13 +49,38 @@ python src/main.py
 
 ---
 
+## 🎯 Model Performance
+
+Accuracy: ~0.73
+
+### Key insights:
+- Women have significantly higher survival rates than men
+- First-class passengers survive more often
+- Third-class passengers have the lowest survival rate
+
+---
+
+## 📊 Visualization Example
+
+(Add your screenshot here later)
+
+---
+
+## 🚀 How to run
+
+```bash
+git clone https://github.com/Erkinbek2026/titanic-survival-prediction.git
+cd titanic-survival-prediction
+
+pip install -r requirements.txt
+
+python src/main.py
+
 ## 👨‍💻 Author
 
-Erkinbek
-git clone https://github.com/Erkinbek2026/titanic-survival-prediction.git
+Erkinbek  
+GitHub: https://github.com/Erkinbek2026
+
+
 ---
-
----
-
-
 
