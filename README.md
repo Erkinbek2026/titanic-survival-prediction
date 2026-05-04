@@ -62,3 +62,21 @@ Accuracy of the model: ~0.73
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/titanic-survival-prediction.git
+
+pip install -r requirements.txt
+
+python src/main.py
+
+
+---
+
+---
+
+## ⚠️ ВАЖНО
+
+Заменить:
+
+```text
+YOUR_USERNAME
+
+
